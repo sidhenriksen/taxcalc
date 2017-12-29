@@ -13,15 +13,13 @@ taxFunctions = {('scotland',2017) : tax.scotland_2017,
          ('scotland',2018) : tax.scotland_2018,
          ('ruk',2017) : tax.ruk_2017,
          ('ruk',2018) : tax.ruk_2018}
-    
-app = dash.Dash()
 
+app = dash.Dash()
 app.suppress_callback_exceptions=True
 app.config.update(
     {'routes_pathname_prefix':'',
      'requests_pathname_prefix':''})
 server = app.server
-
 
 layout = html.Div([
     html.Div([

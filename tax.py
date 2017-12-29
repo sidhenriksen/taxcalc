@@ -1,7 +1,4 @@
 import numpy as np
-import matplotlib.pyplot as plt
-import pandas as pd
-
 
 def calculate_tax_rates(x,bands,maxAllowance=123000):
     
